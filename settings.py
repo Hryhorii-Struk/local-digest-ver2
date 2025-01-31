@@ -2,6 +2,7 @@
 # Django settings for lanai project.
 import os.path
 import sys
+from logging import DEBUG
 
 SITE_ID = 1
 
@@ -86,3 +87,7 @@ except:
     pass
 
 AUTHENTICATION_BACKENDS = ['django.contrib.auth.backends.ModelBackend',]
+
+
+
+
